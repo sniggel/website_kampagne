@@ -13,6 +13,10 @@ Die Website nutzt das virtuelle Python-Environment (`.venv`) und startet einen l
 
 ### Option B: Über das Terminal / PowerShell
 ```powershell
+# Abhängigkeiten im venv installieren (falls neu aufgesetzt):
+.\.venv\Scripts\pip.exe install -r requirements.txt
+
+# Server starten:
 .\.venv\Scripts\python.exe dev.py
 ```
 
