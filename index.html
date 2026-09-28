@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yvone Janssen | Aufsichtsratskandidatur apoBank</title>
+  <meta name="description" content="Offizielle Informationsseite zur Kandidatur von Yvone Janssen für den Aufsichtsrat der Deutschen Apotheker- und Ärztebank eG (apoBank).">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            apo: {
+              blue: '#012169',
+              dark: '#001544',
+              light: '#0a3594',
+              teal: '#00a2b8',
+              'teal-light': '#e0f6f9',
+              gold: '#fed161',
+              olive: '#b6be8a',
+              bg: '#f8fafc',
+              border: '#e2e8f0'
+            }
+          },
+          fontFamily: {
+            sans: ['"Source Sans 3"', 'sans-serif'],
+            serif: ['Merriweather', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="bg-apo-bg text-slate-800 antialiased flex flex-col min-h-screen">
+
+  <!-- Iconic apoBank Lifeline Top Bar -->
+  <div class="apo-lifeline"></div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Brand / Identity -->
+        <a href="#hero" class="flex items-center space-x-3 group">
+          <div class="w-10 h-10 rounded bg-apo-blue text-white font-bold flex items-center justify-center text-lg shadow-sm group-hover:bg-apo-teal transition">
+            YJ
+          </div>
+          <div>
+            <span class="block text-xl font-bold text-apo-blue tracking-tight leading-tight">Yvone Janssen</span>
+            <span class="block text-xs font-semibold text-apo-teal uppercase tracking-wider">Aufsichtsrat · apoBank</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-700">
+          <a href="#motivation" class="hover:text-apo-teal transition py-2">Motivation</a>
+          <a href="#schwerpunkte" class="hover:text-apo-teal transition py-2">Schwerpunkte</a>
+          <a href="#werdegang" class="hover:text-apo-teal transition py-2">Werdegang</a>
+          <a href="#wahl" class="hover:text-apo-teal transition py-2">Wahl & FAQ</a>
+          <a href="#kontakt" class="inline-flex items-center justify-center px-5 py-2.5 rounded text-white bg-apo-blue hover:bg-apo-teal transition shadow-sm font-medium">
+            Kontakt & Dialog
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center">
+          <button id="mobile-menu-btn" class="p-2 rounded text-slate-600 hover:text-apo-blue focus:outline-none" aria-label="Menü öffnen">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
+      <a href="#motivation" class="block py-2 text-slate-700 hover:text-apo-teal font-medium">Motivation</a>
+      <a href="#schwerpunkte" class="block py-2 text-slate-700 hover:text-apo-teal font-medium">Schwerpunkte</a>
+      <a href="#werdegang" class="block py-2 text-slate-700 hover:text-apo-teal font-medium">Werdegang</a>
+      <a href="#wahl" class="block py-2 text-slate-700 hover:text-apo-teal font-medium">Wahl & FAQ</a>
+      <a href="#kontakt" class="block text-center py-3 rounded text-white bg-apo-blue hover:bg-apo-teal font-medium">
+        Kontakt aufnehmen
+      </a>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- HERO SECTION -->
+    <section id="hero" class="relative bg-gradient-to-b from-white to-slate-50 pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Hero Text -->
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-apo-teal-light text-apo-blue text-xs sm:text-sm font-semibold border border-apo-teal/20">
+              <span class="w-2 h-2 rounded-full bg-apo-teal badge-pulse"></span>
+              <span>Kandidatur Aufsichtsrat · Deutsche Apotheker- und Ärztebank eG</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-apo-blue tracking-tight leading-tight">
+              Kompetenz. Weitblick. <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-apo-blue via-apo-light to-apo-teal">
+                Verantwortung für die Heilberufe.
+              </span>
+            </h1>
+
+            <p class="text-lg text-slate-600 leading-relaxed font-normal max-w-2xl">
+              Die apoBank ist das verlässliche finanzielle Rückgrat von Ärztinnen, Ärzten, Apothekerinnen und Apothekern in ganz Deutschland. 
+              Als Kandidatin für den Aufsichtsrat stehe ich für eine zukunftsorientierte Unternehmensführung mit fundierter Finanzexpertise, 
+              strikter Governance und gelebter genossenschaftlicher Verbundenheit.
+            </p>
+
+            <!-- Key Feature Badges -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+              <div class="flex items-center space-x-2 text-sm text-slate-700 bg-white p-3 rounded-lg border border-slate-200/80 shadow-xs">
+                <svg class="w-5 h-5 text-apo-teal shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span class="font-medium">Finanz- & Risikokompetenz</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-700 bg-white p-3 rounded-lg border border-slate-200/80 shadow-xs">
+                <svg class="w-5 h-5 text-apo-teal shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span class="font-medium">Digitale Resilienz</span>
+              </div>
+              <div class="flex items-center space-x-2 text-sm text-slate-700 bg-white p-3 rounded-lg border border-slate-200/80 shadow-xs">
+                <svg class="w-5 h-5 text-apo-teal shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span class="font-medium">Mitgliederfokus</span>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="pt-4 flex flex-col sm:flex-row gap-4">
+              <a href="#schwerpunkte" class="inline-flex items-center justify-center px-6 py-3.5 rounded text-white bg-apo-blue hover:bg-apo-teal transition font-semibold shadow-md">
+                Meine Schwerpunkte entdecken
+                <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+              <a href="#kontakt" class="inline-flex items-center justify-center px-6 py-3.5 rounded text-apo-blue bg-white hover:bg-slate-50 border border-slate-300 transition font-semibold">
+                In den Dialog treten
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Image & Card -->
+          <div class="lg:col-span-5">
+            <div class="relative mx-auto max-w-md">
+              <!-- Decorative background element -->
+              <div class="absolute -inset-2 bg-gradient-to-tr from-apo-blue to-apo-teal rounded-2xl filter blur-xl opacity-20 transform -rotate-1"></div>
+              
+              <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200/80">
+                <!-- Candidate Image Display -->
+                <div class="relative aspect-[3/4] bg-slate-100 flex items-center justify-center overflow-hidden">
+                  <img src="assets/images/portrait-placeholder.svg" alt="Porträt Yvone Janssen - Kandidatin Aufsichtsrat apoBank" class="w-full h-full object-cover">
+                  
+                  <!-- Tag bottom left -->
+                  <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur p-4 rounded-xl shadow-lg border border-slate-100">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <h3 class="font-bold text-apo-blue text-base">Yvone Janssen</h3>
+                        <p class="text-xs text-slate-500 font-medium">Unabhängige Kandidatin</p>
+                      </div>
+                      <span class="px-2.5 py-1 bg-amber-50 text-amber-700 text-xs font-semibold rounded border border-amber-200">
+                        Wahl 2026/2027
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-4 bg-slate-50 border-t border-slate-100 text-xs text-slate-500 text-center">
+                  💡 <em>Tipp: Ersetze einfach die Datei im Ordner <code>assets/images/</code> mit dem echten Porträtfoto.</em>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MOTIVATION / PERSÖNLICHES STATEMENT -->
+    <section id="motivation" class="py-20 bg-white border-y border-slate-100">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-xs font-bold text-apo-teal uppercase tracking-widest">Persönliches Statement</h2>
+          <p class="mt-2 text-3xl font-extrabold text-apo-blue tracking-tight">Warum kandidiere ich für den Aufsichtsrat?</p>
+        </div>
+
+        <div class="relative bg-apo-bg rounded-2xl p-8 sm:p-12 border border-slate-200 shadow-xs">
+          <!-- Quote Icon -->
+          <svg class="absolute top-6 left-6 w-12 h-12 text-apo-teal/20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+          </svg>
+
+          <blockquote class="relative z-10 text-xl sm:text-2xl font-serif text-slate-800 italic leading-relaxed text-center mb-8 pt-4">
+            „Der Aufsichtsrat einer modernen genossenschaftlichen Primärbank muss weit mehr sein als ein reines Kontrollorgan. Er ist ein strategischer Sparringspartner des Vorstands und Garant für das Vertrauen der Heilberufler in herausfordernden Zeiten.“
+          </blockquote>
+
+          <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-4">
+            <p>
+              Das deutsche Gesundheits- und Bankenwesen befindet sich in einem tiefgreifenden Strukturwandel. Steigende regulatorische Anforderungen (u.a. BaFin-Vorgaben, DORA, ESG-Reporting), ein anspruchsvolles Zinsumfeld und die digitale Transformation fordern die Institute heraus. Gleichzeitig stehen niedergelassene Ärztinnen, Ärzte und Apotheker vor enormem bürokratischen und wirtschaftlichen Druck.
+            </p>
+            <p>
+              Genau an dieser Schnittstelle möchte ich meine langjährige Erfahrung im Finanz- und Risikobereich einbringen. Mein Ziel ist es, die Eigenständigkeit und Solidität der apoBank nachhaltig zu sichern und dabei den Gründungsauftrag stets im Blick zu behalten: <strong>Die bestmögliche finanzielle Begleitung unserer Mitglieder und ihrer Praxen und Apotheken.</strong>
+            </p>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-200 flex items-center justify-between flex-wrap gap-4">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 rounded-full bg-apo-blue text-white font-bold flex items-center justify-center">
+                YJ
+              </div>
+              <div>
+                <div class="font-bold text-apo-blue">Yvone Janssen</div>
+                <div class="text-xs text-slate-500">Finanzexpertin & Kandidatin</div>
+              </div>
+            </div>
+            <div class="text-right">
+              <span class="inline-block text-xs font-semibold text-apo-teal uppercase tracking-wider bg-apo-teal-light px-3 py-1 rounded">
+                Unabhängig · Kompetent · Engagiert
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIE 4 KERN-SCHWERPUNKTE -->
+    <section id="schwerpunkte" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-xs font-bold text-apo-teal uppercase tracking-widest">Klarer Fokus für die Mandatsarbeit</h2>
+          <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-apo-blue tracking-tight">Meine 4 strategischen Säulen</p>
+          <p class="mt-4 text-slate-600 text-base">
+            Mit klaren Prioritäten setze ich mich im Aufsichtsrat für Stabilität, Innovation und Transparenz ein.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <!-- Säule 1 -->
+          <div class="feature-card bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+            <div class="w-12 h-12 rounded-lg bg-apo-blue text-white flex items-center justify-center font-bold text-xl mb-6 shadow-sm">
+              01
+            </div>
+            <h3 class="text-xl font-bold text-apo-blue mb-3">Genossenschaftlicher Förderauftrag & Heilberufe</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Die apoBank gehört ihren Mitgliedern. Das Kerngeschäft – die Finanzierung von Praxisgründungen, Apothekenübernahmen und Standortsicherungen – muss stets im Mittelpunkt stehen.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Stärkung des Dialogs mit der Heilberufeschaft
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Fokus auf verlässliche Konditionen & generationenübergreifende Beratung
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Transparente Ausschüttungs- und Dividendenpolitik
+              </li>
+            </ul>
+          </div>
+
+          <!-- Säule 2 -->
+          <div class="feature-card bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+            <div class="w-12 h-12 rounded-lg bg-apo-blue text-white flex items-center justify-center font-bold text-xl mb-6 shadow-sm">
+              02
+            </div>
+            <h3 class="text-xl font-bold text-apo-blue mb-3">Regulatorische Exzellenz & Risikokontrolle</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Bankenaufsicht ist heute so fordernd wie nie zuvor. Eine vorausschauende Risikosteuerung schützt das Institut vor Überraschungen und wahrt das regulatorische Vertrauen der BaFin und EZB.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Souveräner Umgang mit MaRisk- und Solvabilitätsanforderungen
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Prüfung und Begleitung solider Kredit- und Zinsrisikostrategien
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Unabhängige, fundierte Kontrolle ohne Scheuklappen
+              </li>
+            </ul>
+          </div>
+
+          <!-- Säule 3 -->
+          <div class="feature-card bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+            <div class="w-12 h-12 rounded-lg bg-apo-blue text-white flex items-center justify-center font-bold text-xl mb-6 shadow-sm">
+              03
+            </div>
+            <h3 class="text-xl font-bold text-apo-blue mb-3">Digitale Resilienz & IT-Governance (DORA)</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Die Digitalisierung von Bankdienstleistungen verlangt höchste IT-Sicherheit, reibungslose Schnittstellen und Ausfallsicherheit zum Schutz sensibler Kundendaten.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Konsequente Umsetzung der europäischen DORA-Vorgaben
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Effiziente und anwenderfreundliche Online- und Mobile-Services
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Sorgfältiges Monitoring von IT-Investitionen und Outsourcing
+              </li>
+            </ul>
+          </div>
+
+          <!-- Säule 4 -->
+          <div class="feature-card bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+            <div class="w-12 h-12 rounded-lg bg-apo-blue text-white flex items-center justify-center font-bold text-xl mb-6 shadow-sm">
+              04
+            </div>
+            <h3 class="text-xl font-bold text-apo-blue mb-3">Transparenz, Kultur & Nachhaltigkeit (ESG)</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Gute Governance lebt von einer Kultur des offenen Worts und gegenseitigem Respekt. Gleichzeitig müssen ESG-Kriterien pragmatisch und wertstiftend integriert werden.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-700">
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Enger Austausch mit den Vertreterinnen und Vertretern der Bank
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Verantwortungsbewusstes Nachhaltigkeitsmanagement (ESG)
+              </li>
+              <li class="flex items-start">
+                <span class="text-apo-teal font-bold mr-2">✓</span>
+                Moderne Gremienarbeit mit Augenmaß und Sachorientierung
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WERDEGANG / VITA -->
+    <section id="werdegang" class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-xs font-bold text-apo-teal uppercase tracking-widest">Qualifikation & Erfahrung</h2>
+          <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-apo-blue tracking-tight">Beruflicher Werdegang</p>
+          <p class="mt-4 text-slate-600 text-base">
+            Fundierte Ausbildung, mehrjährige Führungsverantwortung und erprobte Gremienerfahrung bilden das Fundament meiner Kandidatur.
+          </p>
+        </div>
+
+        <!-- Timeline / Experience Cards -->
+        <div class="relative border-l-2 border-slate-200 ml-4 md:ml-32 space-y-12">
+          
+          <!-- Station 1 -->
+          <div class="relative pl-8 group">
+            <!-- Timeline dot -->
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-apo-teal border-4 border-white shadow-sm"></div>
+            
+            <div class="md:absolute md:-left-36 md:top-1 md:w-28 md:text-right font-bold text-apo-blue text-sm">
+              Heute
+            </div>
+            
+            <div class="bg-apo-bg p-6 rounded-xl border border-slate-200 shadow-2xs">
+              <span class="text-xs font-semibold text-apo-teal uppercase tracking-wider">Aktuelle Führungsaufgabe</span>
+              <h3 class="text-lg font-bold text-apo-blue mt-1">Leitende Position im Finanz- / Risikomanagement</h3>
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Verantwortung für strategische Risikosteuerung, Liquiditätsplanung und Gremienberichterstattung. Direkte Schnittstelle zu Aufsichtsbehörden und Wirtschaftsprüfern.
+              </p>
+            </div>
+          </div>
+
+          <!-- Station 2 -->
+          <div class="relative pl-8 group">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-apo-blue border-4 border-white shadow-sm"></div>
+            
+            <div class="md:absolute md:-left-36 md:top-1 md:w-28 md:text-right font-bold text-apo-blue text-sm">
+              Meilenstein
+            </div>
+            
+            <div class="bg-apo-bg p-6 rounded-xl border border-slate-200 shadow-2xs">
+              <span class="text-xs font-semibold text-apo-teal uppercase tracking-wider">Gremienerfahrung & Governance</span>
+              <h3 class="text-lg font-bold text-apo-blue mt-1">Mitwirkung in Aufsichts- und Beiratsgremien</h3>
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Erfahrung in der konstruktiven Begleitung von Vorständen, Ausschussarbeit (Prüfungs- und Risikoausschuss) und der Beurteilung von strategischen Investitionsprojekten.
+              </p>
+            </div>
+          </div>
+
+          <!-- Station 3 -->
+          <div class="relative pl-8 group">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-apo-blue border-4 border-white shadow-sm"></div>
+            
+            <div class="md:absolute md:-left-36 md:top-1 md:w-28 md:text-right font-bold text-apo-blue text-sm">
+              Fundament
+            </div>
+            
+            <div class="bg-apo-bg p-6 rounded-xl border border-slate-200 shadow-2xs">
+              <span class="text-xs font-semibold text-apo-teal uppercase tracking-wider">Ausbildung & Spezialisierung</span>
+              <h3 class="text-lg font-bold text-apo-blue mt-1">Akademischer Abschluss in Wirtschaftswissenschaften / Finance</h3>
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Schwerpunkte in Bankbetriebslehre, Wirtschaftsprüfung und Gesellschaftsrecht. Kontinuierliche Weiterbildung in Bankenregulierung (DORA, MaRisk) und ESG-Standards.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Note to customize -->
+        <div class="mt-12 text-center">
+          <p class="text-xs text-slate-500 italic bg-amber-50 inline-block px-4 py-2 rounded-lg border border-amber-200">
+            ✍️ <em>Hinweis: Die einzelnen Stationen der Vita können wir 1:1 an den tatsächlichen Lebenslauf von Frau Janssen anpassen.</em>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS / STIMMEN -->
+    <section class="py-20 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-xs font-bold text-apo-teal uppercase tracking-widest">Vertrauen & Rückhalt</h2>
+          <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-apo-blue tracking-tight">Stimmen zur Kandidatur</p>
+          <p class="mt-4 text-slate-600 text-base">
+            Kollegen, Mitglieder und Wegbegleiter schätzen Fachkompetenz, Urteilsvermögen und Nahbarkeit.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <div class="bg-white p-8 rounded-xl shadow-xs border border-slate-200 flex flex-col justify-between">
+            <p class="text-slate-600 text-sm italic leading-relaxed mb-6">
+              „Yvone Janssen verbindet exzellente Zahlenaffinität mit einem tiefen Verständnis für die genossenschaftlichen Werte. Eine ideale Besetzung für das Aufsichtsgremium.“
+            </p>
+            <div class="border-t border-slate-100 pt-4">
+              <div class="font-bold text-apo-blue text-sm">Dr. med. M. Weber</div>
+              <div class="text-xs text-slate-500">Niedergelassener Facharzt & Vertreter</div>
+            </div>
+          </div>
+
+          <div class="bg-white p-8 rounded-xl shadow-xs border border-slate-200 flex flex-col justify-between">
+            <p class="text-slate-600 text-sm italic leading-relaxed mb-6">
+              „Im Prüfungsausschuss braucht es Unabhängigkeit und analytische Schärfe. Bei Frau Janssen weiß man, dass kritische Fragen konstruktiv und lösungsorientiert gestellt werden.“
+            </p>
+            <div class="border-t border-slate-100 pt-4">
+              <div class="font-bold text-apo-blue text-sm">Apothekerin S. Becker</div>
+              <div class="text-xs text-slate-500">Inhaberin & apoBank-Mitglied</div>
+            </div>
+          </div>
+
+          <div class="bg-white p-8 rounded-xl shadow-xs border border-slate-200 flex flex-col justify-between">
+            <p class="text-slate-600 text-sm italic leading-relaxed mb-6">
+              „In einer Phase regulatorischer Verdichtung ist ihre Erfahrung in Risikomanagement und IT-Governance von unschätzbarem Wert für die zukünftige Ausrichtung.“
+            </p>
+            <div class="border-t border-slate-100 pt-4">
+              <div class="font-bold text-apo-blue text-sm">Dipl.-Kfm. H. Richter</div>
+              <div class="text-xs text-slate-500">Wirtschaftsprüfer & Finanzberater</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WAHL-INFORMATIONEN & FAQ AKKORDEON -->
+    <section id="wahl" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-16">
+          <h2 class="text-xs font-bold text-apo-teal uppercase tracking-widest">Hintergrund & Ablauf</h2>
+          <p class="mt-2 text-3xl font-extrabold text-apo-blue tracking-tight">Häufige Fragen zur Aufsichtsratswahl</p>
+          <p class="mt-4 text-slate-600 text-base">
+            Hier finden Sie Antworten rund um das Wahlverfahren und die Aufgaben des Aufsichtsrats.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          
+          <!-- Accordion Item 1 -->
+          <div class="border border-slate-200 rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full text-left p-5 bg-apo-bg hover:bg-slate-100 flex justify-between items-center transition font-semibold text-apo-blue">
+              <span>Wer wählt die Mitglieder des Aufsichtsrats der apoBank?</span>
+              <svg class="faq-icon w-5 h-5 text-apo-teal transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content p-5 text-sm text-slate-600 bg-white border-t border-slate-100 leading-relaxed">
+              Die Mitglieder des Aufsichtsrats der Vertreterseite werden von der <strong>Vertreterversammlung der Deutschen Apotheker- und Ärztebank eG</strong> gewählt. Die Vertreterinnen und Vertreter repräsentieren die Gesamtheit aller Genossenschaftsmitglieder.
+            </div>
+          </div>
+
+          <!-- Accordion Item 2 -->
+          <div class="border border-slate-200 rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full text-left p-5 bg-apo-bg hover:bg-slate-100 flex justify-between items-center transition font-semibold text-apo-blue">
+              <span>Welche Kernaufgaben übernimmt der Aufsichtsrat?</span>
+              <svg class="faq-icon w-5 h-5 text-apo-teal transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden p-5 text-sm text-slate-600 bg-white border-t border-slate-100 leading-relaxed">
+              Der Aufsichtsrat überwacht und berät den Vorstand bei der Geschäftsführung. Er prüft den Jahresabschluss, ist an grundlegenden strategischen Weichenstellungen beteiligt und stellt sicher, dass gesetzliche, aufsichtsrechtliche und genossenschaftliche Maßstäbe gewahrt werden.
+            </div>
+          </div>
+
+          <!-- Accordion Item 3 -->
+          <div class="border border-slate-200 rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full text-left p-5 bg-apo-bg hover:bg-slate-100 flex justify-between items-center transition font-semibold text-apo-blue">
+              <span>Warum ist Unabhängigkeit im Aufsichtsrat so entscheidend?</span>
+              <svg class="faq-icon w-5 h-5 text-apo-teal transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden p-5 text-sm text-slate-600 bg-white border-t border-slate-100 leading-relaxed">
+              Ein starker Aufsichtsrat handelt frei von Interessenskonflikten. Unabhängigkeit ermöglicht es, auch unbequeme Fragen zu stellen, Risiken frühzeitig zu adressieren und allein dem Wohl der Bank und ihrer genossenschaftlichen Eigentümer verpflichtet zu sein.
+            </div>
+          </div>
+
+          <!-- Accordion Item 4 -->
+          <div class="border border-slate-200 rounded-lg overflow-hidden">
+            <button class="faq-toggle w-full text-left p-5 bg-apo-bg hover:bg-slate-100 flex justify-between items-center transition font-semibold text-apo-blue">
+              <span>Wie kann ich als Vertreter oder Mitglied Kontakt aufnehmen?</span>
+              <svg class="faq-icon w-5 h-5 text-apo-teal transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden p-5 text-sm text-slate-600 bg-white border-t border-slate-100 leading-relaxed">
+              Sehr gerne direkt über das untenstehende Kontaktformular, per E-Mail oder über mein verlinktes LinkedIn-Profil. Ein persönliches Gespräch oder ein Telefonat ist jederzeit willkommen.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KONTAKT & DIALOG -->
+    <section id="kontakt" class="py-20 bg-apo-bg border-t border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <h2 class="text-xs font-bold text-apo-teal uppercase tracking-widest">Austausch & Vernetzung</h2>
+          <p class="mt-2 text-3xl font-extrabold text-apo-blue tracking-tight">Lassen Sie uns ins Gespräch kommen</p>
+          <p class="mt-4 text-slate-600 text-base">
+            Haben Sie Fragen zu meiner Kandidatur, Anregungen oder möchten Sie sich über die Zukunft der apoBank austauschen? Ich freue mich auf Ihre Nachricht.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 sm:p-10">
+          
+          <div id="form-success" class="hidden mb-6 p-4 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm">
+            <div class="font-bold">Vielen Dank für Ihre Nachricht!</div>
+            <p>Ihre Anfrage wurde erfolgreich übermittelt. Yvone Janssen wird sich zeitnah bei Ihnen melden.</p>
+          </div>
+
+          <form id="contact-form" class="space-y-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label for="name" class="block text-sm font-semibold text-slate-700 mb-1">Ihr Name *</label>
+                <input type="text" id="name" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-apo-teal focus:border-transparent text-sm" placeholder="Dr. Max Mustermann">
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-semibold text-slate-700 mb-1">Ihre E-Mail-Adresse *</label>
+                <input type="email" id="email" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-apo-teal focus:border-transparent text-sm" placeholder="beispiel@praxis.de">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label for="role" class="block text-sm font-semibold text-slate-700 mb-1">Funktion / Berufsfeld</label>
+                <select id="role" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-apo-teal focus:border-transparent text-sm bg-white">
+                  <option value="vertreter">Vertreterin / Vertreter der apoBank</option>
+                  <option value="arzt">Ärztin / Arzt</option>
+                  <option value="zahnarzt">Zahnärztin / Zahnarzt</option>
+                  <option value="apotheker">Apothekerin / Apotheker</option>
+                  <option value="sonstige">Mitglied / Sonstiges</option>
+                </select>
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-semibold text-slate-700 mb-1">Telefonnummer (optional)</label>
+                <input type="tel" id="phone" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-apo-teal focus:border-transparent text-sm" placeholder="+49 170 1234567">
+              </div>
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-semibold text-slate-700 mb-1">Ihre Nachricht oder Frage *</label>
+              <textarea id="message" rows="4" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-apo-teal focus:border-transparent text-sm" placeholder="Sehr geehrte Frau Janssen, ..."></textarea>
+            </div>
+
+            <div class="flex items-center text-xs text-slate-500">
+              <input type="checkbox" id="privacy" required class="mr-2 rounded text-apo-teal focus:ring-apo-teal">
+              <label for="privacy">
+                Ich stimme der Verarbeitung meiner Angaben zur Kontaktaufnahme gemäß der <a href="datenschutz.html" class="underline hover:text-apo-teal">Datenschutzerklärung</a> zu.
+              </label>
+            </div>
+
+            <button type="submit" class="w-full sm:w-auto px-8 py-3.5 rounded text-white bg-apo-blue hover:bg-apo-teal transition font-semibold shadow-sm">
+              Nachricht absenden
+            </button>
+          </form>
+
+          <div class="mt-10 pt-8 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between text-sm text-slate-600 gap-4">
+            <div class="flex items-center space-x-2">
+              <svg class="w-5 h-5 text-apo-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              <span>E-Mail: <a href="mailto:kontakt@yvone-janssen.de" class="font-medium text-apo-blue hover:underline">kontakt@yvone-janssen.de</a></span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <svg class="w-5 h-5 text-apo-teal" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="font-medium text-apo-blue hover:underline">LinkedIn-Profil vernetzen</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-apo-blue text-white text-sm">
+    <!-- Lifeline Divider -->
+    <div class="apo-lifeline"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+        
+        <!-- Col 1 -->
+        <div class="md:col-span-6 space-y-3">
+          <div class="flex items-center space-x-2">
+            <span class="font-bold text-lg text-white">Yvone Janssen</span>
+            <span class="text-xs text-apo-teal font-medium">| Kandidatur Aufsichtsrat</span>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed max-w-md">
+            Unabhängige Kandidatin zur Aufsichtsratswahl der Deutschen Apotheker- und Ärztebank eG. 
+            Für eine starke Bank an der Seite der Heilberufler.
+          </p>
+          <p class="text-[11px] text-slate-400 italic">
+            Rechtlicher Hinweis: Dies ist eine persönliche Wahl- und Kampagnenwebsite von Yvone Janssen und kein offizielles Angebot oder Kommunikationsmedium der Deutschen Apotheker- und Ärztebank eG.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="md:col-span-3 space-y-2">
+          <h4 class="text-xs font-semibold uppercase tracking-wider text-apo-gold">Navigation</h4>
+          <ul class="space-y-1 text-xs text-slate-300">
+            <li><a href="#hero" class="hover:text-white transition">Startseite</a></li>
+            <li><a href="#motivation" class="hover:text-white transition">Motivation</a></li>
+            <li><a href="#schwerpunkte" class="hover:text-white transition">4 Schwerpunkte</a></li>
+            <li><a href="#werdegang" class="hover:text-white transition">Werdegang</a></li>
+            <li><a href="#wahl" class="hover:text-white transition">Wahl & FAQ</a></li>
+            <li><a href="#kontakt" class="hover:text-white transition">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Rechtliches -->
+        <div class="md:col-span-3 space-y-2">
+          <h4 class="text-xs font-semibold uppercase tracking-wider text-apo-gold">Rechtliches</h4>
+          <ul class="space-y-1 text-xs text-slate-300">
+            <li><a href="impressum.html" class="hover:text-white transition">Impressum</a></li>
+            <li><a href="datenschutz.html" class="hover:text-white transition">Datenschutzerklärung</a></li>
+          </ul>
+          <p class="text-[11px] text-slate-400 pt-4">
+            &copy; 2026 Yvone Janssen. Alle Rechte vorbehalten.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

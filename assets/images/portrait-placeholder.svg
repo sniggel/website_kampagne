@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1d37" />
+      <stop offset="60%" stop-color="#012169" />
+      <stop offset="100%" stop-color="#003580" />
+    </linearGradient>
+    <linearGradient id="suit-grad" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#071936" />
+      <stop offset="100%" stop-color="#031024" />
+    </linearGradient>
+    <linearGradient id="blouse-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00a2b8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#fed161" stop-opacity="0.2" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bg-grad)" />
+
+  <!-- Architectural soft background lines -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="2">
+    <line x1="100" y1="0" x2="100" y2="1000" />
+    <line x1="300" y1="0" x2="300" y2="1000" />
+    <line x1="500" y1="0" x2="500" y2="1000" />
+    <line x1="700" y1="0" x2="700" y2="1000" />
+    <line x1="0" y1="250" x2="800" y2="250" />
+    <line x1="0" y1="600" x2="800" y2="600" />
+  </g>
+
+  <!-- Subtle glow circle in background -->
+  <circle cx="400" cy="380" r="280" fill="url(#accent-glow)" filter="blur(40px)" />
+
+  <!-- Candidate Silhouette / Stylized Portrait -->
+  <g filter="url(#shadow)">
+    <!-- Shoulders & Blazer -->
+    <path d="M 160 880 C 180 720, 260 630, 330 610 L 400 680 L 470 610 C 540 630, 620 720, 640 880 C 650 960, 650 1000, 650 1000 L 150 1000 C 150 1000, 150 960, 160 880 Z" fill="url(#suit-grad)" />
+    
+    <!-- Lapels -->
+    <path d="M 330 610 L 400 780 L 350 780 L 300 640 Z" fill="#0c254e" />
+    <path d="M 470 610 L 400 780 L 450 780 L 500 640 Z" fill="#0f2b5a" />
+
+    <!-- Blouse/Shirt -->
+    <polygon points="360,610 440,610 400,740" fill="url(#blouse-grad)" />
+    
+    <!-- Neck -->
+    <rect x="365" y="470" width="70" height="150" rx="30" fill="#f1d4c2" />
+    <path d="M 365 520 C 380 550, 420 550, 435 520 L 435 570 C 420 590, 380 590, 365 570 Z" fill="#e2beaa" opacity="0.6"/>
+
+    <!-- Head / Face -->
+    <ellipse cx="400" cy="390" rx="105" ry="135" fill="#f7decb" />
+    
+    <!-- Hair (Professional modern style) -->
+    <path d="M 285 410 C 275 250, 350 200, 400 200 C 470 200, 525 250, 515 410 C 500 370, 480 300, 400 300 C 330 300, 305 360, 285 410 Z" fill="#4a3728" />
+    <path d="M 285 360 C 275 420, 275 490, 310 540 C 315 500, 315 440, 315 390 Z" fill="#3a2b1f" />
+    <path d="M 515 360 C 525 420, 525 490, 490 540 C 485 500, 485 440, 485 390 Z" fill="#3a2b1f" />
+
+    <!-- Subtle facial features (friendly abstract) -->
+    <ellipse cx="365" cy="385" rx="8" ry="5" fill="#2d3748" opacity="0.7"/>
+    <ellipse cx="435" cy="385" rx="8" ry="5" fill="#2d3748" opacity="0.7"/>
+    <!-- Gentle smile -->
+    <path d="M 375 445 Q 400 468 425 445" stroke="#a0522d" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- Overlay Badge -->
+  <g transform="translate(180, 890)">
+    <rect x="0" y="0" width="440" height="70" rx="35" fill="#ffffff" filter="url(#shadow)" />
+    <rect x="5" y="5" width="430" height="60" rx="30" fill="#ffffff" stroke="#00a2b8" stroke-width="1.5" stroke-dasharray="4,4" />
+    <circle cx="35" cy="35" r="18" fill="#012169" />
+    <path d="M 28 35 L 33 40 L 43 30" stroke="#fed161" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="70" y="32" font-family="'Source Sans 3', 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#012169">Yvone Janssen</text>
+    <text x="70" y="51" font-family="'Source Sans 3', 'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#00a2b8">Kandidatin für den Aufsichtsrat · apoBank</text>
+  </g>
+</svg>

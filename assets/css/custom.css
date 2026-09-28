@@ -1,0 +1,66 @@
+/* Custom styling and brand accents matching apoBank style */
+:root {
+  --apo-blue: #012169;
+  --apo-blue-dark: #00174a;
+  --apo-blue-light: #0d388f;
+  --apo-teal: #00a2b8;
+  --apo-teal-light: #e0f6f9;
+  --apo-gold: #fed161;
+  --apo-olive: #b6be8a;
+  --apo-bg-light: #f8fafc;
+}
+
+body {
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1e293b;
+  scroll-behavior: smooth;
+}
+
+/* Iconic apoBank lifeline bar */
+.apo-lifeline {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--apo-gold) 0%, var(--apo-olive) 50%, var(--apo-teal) 100%);
+}
+
+.apo-lifeline-vertical {
+  width: 4px;
+  background: linear-gradient(180deg, var(--apo-gold) 0%, var(--apo-olive) 50%, var(--apo-teal) 100%);
+}
+
+/* Card hover transitions */
+.feature-card {
+  transition: all 0.25s ease-in-out;
+  border-bottom: 3px solid transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-bottom: 3px solid var(--apo-teal);
+  box-shadow: 0 20px 25px -5px rgba(1, 33, 105, 0.08), 0 8px 10px -6px rgba(1, 33, 105, 0.04);
+}
+
+/* Subtle badge pulse */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+.badge-pulse {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--apo-teal);
+}
